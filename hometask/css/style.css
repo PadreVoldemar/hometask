@@ -407,3 +407,19 @@ body {
     color: #445161;
     text-transform: uppercase;
 }
+
+/*Контакты*/
+
+.contacts {
+    background: #445162;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
