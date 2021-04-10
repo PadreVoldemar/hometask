@@ -92,6 +92,7 @@ body {
     font-size: 30px;
     line-height: 36px;      
     color: #445161;
+    margin: 0 0 30px 0;
 }
 
 .about-product-text {
@@ -99,6 +100,7 @@ body {
     font-size: 16px;
     line-height: 24px;      
     color: #333333;
+    margin: 0 0 20px 0;
 }
 
 .about-product-img {
@@ -126,6 +128,9 @@ body {
 	font-weight: 400;
 	color: #333333;
 }
+.about-product-text:last-child {
+    margin: 0;
+    }
 
 .about-product-video {
 	background-color: #445161;	
@@ -153,7 +158,6 @@ body {
 	width: 50%;
 }
  
-
 .dignity-item {
 	width: 100%;
 	box-sizing: border-box;
@@ -164,11 +168,20 @@ body {
 	margin-bottom: 30px;
 }
 
+.dignity-item summary {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 40px;
+    box-sizing: border-box;
+    }
+
+.dignity-item summary:before {
+    left: 0;
+    }
 .dignity-item-wrp .dignity-item:last-child {
 	margin-bottom: 0;	
 }
-
-
 
 .dignity-item summary {
 	display: block;
@@ -211,3 +224,219 @@ body {
 }
 
 /*screenshots*/
+.screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.indent-site {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.screenshots-title{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    box-sizing: border-box;
+    margin: 0 0 30px 0;
+}
+
+.screenshots-item {
+    width: 50%;
+    margin: 0 0 20px 0;
+    display: flex;
+}
+
+.screenshots-image {
+    width: 202px;
+    height: 153px;
+    background: #445161;
+    margin: 7px 15px 0 0;
+}
+
+.screenshots-item-title {
+    width: 340px;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #445161;
+    margin: 0 0 5px 0;
+}
+
+.screenshots-item-txt {
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+/*reviews*/
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 50px 30px 50px;
+    background: #F5F5F5;
+}
+.reviews-indent {
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+
+.reviews-title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    box-sizing: border-box;
+    margin: 0 0 30px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.reviews-item {
+    width: 483px;
+    height: 130px;
+    left: 85px;
+    top: 2px; 
+    background: #EBEBEB;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    display: flex;
+}
+
+.reviews-image {
+    width: 66px;
+    height: 66px;
+    left: 4px;
+    top: 2px;
+    margin: 15px 6px 0 0;
+}
+
+.reviews-item-text {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.triangle { /* <---треугольник*/
+    width: 568px;
+    padding: 16px;
+    border-radius: 10px;  
+    position: relative;
+    background: #EBEBEB;
+  }
+  
+  .triangle:before {
+    content: "";
+    display: block;
+    border: 13px solid transparent; 
+    border-right: 13px solid #EBEBEB;
+    position: absolute;
+    top: 35px;
+    left: -26px;
+  }
+
+.comment-title {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #989898;
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+/*цены*/
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.indent-price {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.price-title {
+    width: 100%;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #445161;
+}
+
+.price-item {
+    background: #445161;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.price-category {
+    font-size: 24px;
+    line-height: 30px;   
+    text-align: center; 
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.price-txt {
+    background: #FFFFFF;
+    border: 2px solid #445162;
+    box-sizing: border-box;
+    text-align: center; 
+    font-size: 40px;
+    color: #445162;
+}
+
+.price-item-list-text {
+    font-size: 14px;
+    line-height: 24px;  
+    color: #FFFFFF;
+    padding: 0px 0px 0px 40px;
+}
+
+.price-btn {
+    width: 262px;
+    height: 43px;
+    margin: 19px 0 19px 19px;
+    border-radius: 5px;
+}
+
+.btn-text {
+    text-align: center; 
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #445161;
+    text-transform: uppercase;
+}
+
+/*Контакты*/
+
+.contacts {
+    background: #445162;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
