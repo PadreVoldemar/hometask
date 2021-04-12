@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../hometask/css/font-awesome.css">
+    <script src="https://kit.fontawesome.com/ec456670e6.js" crossorigin="anonymous"></script>
     <title>Главная</title>
 </head>
 
@@ -36,7 +38,11 @@
                     dolor.
                 </p>
             </div>
-            <img class="about-product-img" src="#" alt="видео" width="430" height="245">
+
+            <video src="../hometask/video/video.mp4" controls autoplay muted width="430" height="245" poster="">
+                Элемент video не поддерживается вашим браузером.
+                <a href="video/duel.mp4">Скачайте видео</a>.
+            </video>
         </section>
         <section class="dignity">
 
@@ -228,10 +234,31 @@
             </figure>
         </section>
     </main>
-    <footer class="contacts">
-        <h2 class="text">Contacts</h2>
-        <form name=""></form>
-
+    <footer>
+        <section class="contacts">
+            <h2 class="contacts-text">Contacts</h2>
+            <form class="contacts-form" action="#" method="post">
+                <input type="text" placeholder="Your name:">
+                <input type="email" placeholder="Your email:">
+                <textarea placeholder="Your message:"></textarea>
+                <input type="submit" value="send">
+            </form>
+            <div class="contacts-social">
+                <span class="contacts-social-link">here_your_login_skype</span>
+                <span class="contacts-social-link">279679659</span>
+                <span class="contacts-social-link">psdhtmlcss@mail.ru</span>
+                <span class="contacts-social-link">80 00 4568 55 55</span>
+                <div class="contacts-social-icons">
+                    <a href="#" class="contacts-social-icons"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#" class="contacts-social-icons"><i class="fab fa-vk"></i></a>
+                    <a href="#" class="contacts-social-icons"><i class="fab fa-google-plus"></i></a>
+                    <a href="#" class="contacts-social-icons"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <p>Copyright © 2014 Product name · PSD HTML CSS</p>
+        </section>
     </footer>
 </body>
 
