@@ -233,7 +233,7 @@ body {
 }
 
 .indent-site {
-    padding: 50px;
+    padding: 50px 50px 30px 50px;
     box-sizing: border-box;
 }
 
@@ -276,6 +276,7 @@ body {
     display: flex;
     align-items: center;
     color: #333333;
+    margin: 0;
 }
 
 /*reviews*/
@@ -318,9 +319,9 @@ body {
 .reviews-image {
     width: 66px;
     height: 66px;
-    left: 4px;
-    top: 2px;
     margin: 15px 6px 0 0;
+    background-color: #445161;
+    border-radius: 50%;
 }
 
 .reviews-item-text {
@@ -334,6 +335,7 @@ body {
     border-radius: 10px;  
     position: relative;
     background: #EBEBEB;
+    margin: 0;
   }
   
   .triangle:before {
@@ -383,6 +385,9 @@ body {
     background: #445161;
     border-radius: 5px;
     width: 300px;
+    margin: 0 25px;
+    padding: 0 0 15px 0;
+    box-sizing: border-box;
 }
 
 .price-category {
@@ -391,6 +396,9 @@ body {
     text-align: center; 
     color: #FFFFFF;
     font-weight: normal;
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
 }
 
 .price-txt {
@@ -400,20 +408,27 @@ body {
     text-align: center; 
     font-size: 40px;
     color: #445162;
+    margin: 0 0 20px 0;
+    padding: 18px;
 }
 
 .price-item-list-text {
     font-size: 14px;
     line-height: 24px;  
     color: #FFFFFF;
-    padding: 0px 0px 0px 40px;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    list-style-position: inside;
+    margin: 0 0 20px 0;
 }
 
 .price-btn {
     width: 262px;
     height: 43px;
-    margin: 19px 0 19px 19px;
+    margin: 0 auto;
     border-radius: 5px;
+    display: block;
+    min-height: 43px;
 }
 
 .btn-text {
